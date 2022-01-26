@@ -574,8 +574,8 @@ class Handler(Extract, GetPages):
                 'source': 'Michael Watson Secretory of state',
                 'summary': {
                     'currency': 'USD',
-                    'income_statement': [{'period': 'dsad',
-                                         'revenue':'dasdas'}]
+                    'income_statement': tempList
                 }
             }]
+        #print(temp)
         return temp
